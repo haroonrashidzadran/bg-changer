@@ -4,6 +4,7 @@ import './App.css'
 function App() {
   const [bgColor, setBgColor] = useState('#ffffff')
   const [colorHistory, setColorHistory] = useState([])
+  const [isLoading, setIsLoading] = useState(true)
 
   const colors = [
     { name: 'Slate', value: '#1e293b' },
@@ -29,6 +30,7 @@ function App() {
     }
     
     window.addEventListener('keydown', handleKeyPress)
+    setTimeout(() => setIsLoading(false), 1000)
     return () => window.removeEventListener('keydown', handleKeyPress)
   }, [])
 
@@ -44,6 +46,11 @@ function App() {
 
   return (
     <div style={{ backgroundColor: bgColor, minHeight: '100vh', width: '100vw', transition: 'background-color 0.5s ease' }}>
+      {isLoading ? (
+        <div className="loading">
+          <div className="spinner"></div>
+        </div>
+      ) : (
       <div className="container">
         <div className="header">
           <h1>Professional Background Changer</h1>
@@ -76,6 +83,7 @@ function App() {
           Random
         </button>
       </div>
+      )}
     </div>
   )
 }

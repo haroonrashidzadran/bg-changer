@@ -31,6 +31,11 @@ function App() {
     return () => window.removeEventListener('keydown', handleKeyPress)
   }, [])
 
+  const getRandomColor = () => {
+    const randomIndex = Math.floor(Math.random() * colors.length)
+    setBgColor(colors[randomIndex].value)
+  }
+
   return (
     <div style={{ backgroundColor: bgColor, minHeight: '100vh', width: '100vw', transition: 'background-color 0.5s ease' }}>
       <div className="container">
@@ -57,6 +62,12 @@ function App() {
           className="reset-btn"
         >
           Reset
+        </button>
+        <button 
+          onClick={getRandomColor}
+          className="random-btn"
+        >
+          Random
         </button>
       </div>
     </div>

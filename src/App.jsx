@@ -37,6 +37,12 @@ function App() {
             </button>
           ))}
         </div>
+        <button 
+          onClick={() => setBgColor('#ffffff')}
+          className="reset-btn"
+        >
+          Reset
+        </button>
       </div>
     </div>
   )

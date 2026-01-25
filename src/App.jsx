@@ -55,6 +55,7 @@ function App() {
         <div className="header">
           <h1>Professional Background Changer</h1>
           <p>Selected: {colors.find(c => c.value === bgColor)?.name || 'Custom'} ({bgColor})</p>
+          <p className="color-count">{colors.length} colors available</p>
           <p className="shortcut-hint">Press 1-9 for colors, 0 to reset</p>
         </div>
         <div className="color-grid">

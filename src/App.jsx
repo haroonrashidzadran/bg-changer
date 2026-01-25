@@ -77,20 +77,22 @@ function App() {
             </button>
           ))}
         </div>
-        <button 
-          onClick={() => changeColor('#1e293b')}
-          className="reset-btn"
-          aria-label="Reset background to dark slate"
-        >
-          Reset
-        </button>
-        <button 
-          onClick={getRandomColor}
-          className="random-btn"
-          aria-label="Select random background color"
-        >
-          Random
-        </button>
+        <div className="button-row">
+          <button 
+            onClick={() => changeColor('#1e293b')}
+            className="reset-btn"
+            aria-label="Reset background to dark slate"
+          >
+            Reset
+          </button>
+          <button 
+            onClick={getRandomColor}
+            className="random-btn"
+            aria-label="Select random background color"
+          >
+            Random
+          </button>
+        </div>
       </div>
       )}
     </div>

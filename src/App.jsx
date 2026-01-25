@@ -65,6 +65,7 @@ function App() {
               onClick={() => changeColor(color.value)}
               className={`color-btn ${bgColor === color.value ? 'active' : ''}`}
               style={{ backgroundColor: color.value }}
+              title={`${color.name} - ${color.value}`}
             >
               <span className="color-name">{color.name}</span>
               <span className="color-code">{color.value}</span>

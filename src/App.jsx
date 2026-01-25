@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   const [bgColor, setBgColor] = useState(() => {
-    return localStorage.getItem('bgColor') || '#ffffff'
+    return localStorage.getItem('bgColor') || '#1e293b'
   })
   const [colorHistory, setColorHistory] = useState([])
   const [isLoading, setIsLoading] = useState(true)
@@ -27,7 +27,7 @@ function App() {
       if (key >= 1 && key <= colors.length) {
         changeColor(colors[key - 1].value)
       } else if (e.key === '0') {
-        changeColor('#ffffff')
+        changeColor('#1e293b')
       }
     }
     
@@ -78,9 +78,9 @@ function App() {
           ))}
         </div>
         <button 
-          onClick={() => changeColor('#ffffff')}
+          onClick={() => changeColor('#1e293b')}
           className="reset-btn"
-          aria-label="Reset background to white"
+          aria-label="Reset background to dark slate"
         >
           Reset
         </button>

@@ -44,6 +44,12 @@ body {
   font-weight: 500;
 }
 
+.shortcut-hint {
+  font-size: 0.9rem !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  margin-top: 0.5rem;
+}
+
 .color-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);

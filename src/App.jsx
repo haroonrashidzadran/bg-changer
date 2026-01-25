@@ -67,6 +67,7 @@ function App() {
               className={`color-btn ${bgColor === color.value ? 'active' : ''}`}
               style={{ backgroundColor: color.value }}
               title={`${color.name} - ${color.value}`}
+              aria-label={`Change background to ${color.name}`}
             >
               <span className="color-name">{color.name}</span>
               <span className="color-code">{color.value}</span>
@@ -76,12 +77,14 @@ function App() {
         <button 
           onClick={() => changeColor('#ffffff')}
           className="reset-btn"
+          aria-label="Reset background to white"
         >
           Reset
         </button>
         <button 
           onClick={getRandomColor}
           className="random-btn"
+          aria-label="Select random background color"
         >
           Random
         </button>

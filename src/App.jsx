@@ -3,6 +3,7 @@ import './App.css'
 
 function App() {
   const [bgColor, setBgColor] = useState('#ffffff')
+  const [colorHistory, setColorHistory] = useState([])
 
   const colors = [
     { name: 'Slate', value: '#1e293b' },
@@ -21,9 +22,9 @@ function App() {
     const handleKeyPress = (e) => {
       const key = parseInt(e.key)
       if (key >= 1 && key <= colors.length) {
-        setBgColor(colors[key - 1].value)
+        changeColor(colors[key - 1].value)
       } else if (e.key === '0') {
-        setBgColor('#ffffff')
+        changeColor('#ffffff')
       }
     }
     
@@ -31,9 +32,14 @@ function App() {
     return () => window.removeEventListener('keydown', handleKeyPress)
   }, [])
 
+  const changeColor = (color) => {
+    setBgColor(color)
+    setColorHistory(prev => [color, ...prev.slice(0, 4)])
+  }
+
   const getRandomColor = () => {
     const randomIndex = Math.floor(Math.random() * colors.length)
-    setBgColor(colors[randomIndex].value)
+    changeColor(colors[randomIndex].value)
   }
 
   return (
@@ -48,7 +54,7 @@ function App() {
           {colors.map((color) => (
             <button
               key={color.name}
-              onClick={() => setBgColor(color.value)}
+              onClick={() => changeColor(color.value)}
               className={`color-btn ${bgColor === color.value ? 'active' : ''}`}
               style={{ backgroundColor: color.value }}
             >
@@ -58,7 +64,7 @@ function App() {
           ))}
         </div>
         <button 
-          onClick={() => setBgColor('#ffffff')}
+          onClick={() => changeColor('#ffffff')}
           className="reset-btn"
         >
           Reset

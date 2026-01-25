@@ -83,6 +83,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  animation: colorPulse 3s ease-in-out infinite;
 }
 
 .color-btn:hover {
@@ -172,6 +173,11 @@ body {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+@keyframes colorPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
 }
 
 @media (max-width: 768px) {

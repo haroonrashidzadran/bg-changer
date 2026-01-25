@@ -2,7 +2,9 @@ import { useState, useEffect, useCallback } from 'react'
 import './App.css'
 
 function App() {
-  const [bgColor, setBgColor] = useState('#ffffff')
+  const [bgColor, setBgColor] = useState(() => {
+    return localStorage.getItem('bgColor') || '#ffffff'
+  })
   const [colorHistory, setColorHistory] = useState([])
   const [isLoading, setIsLoading] = useState(true)
 
@@ -36,6 +38,7 @@ function App() {
 
   const changeColor = useCallback((color) => {
     setBgColor(color)
+    localStorage.setItem('bgColor', color)
     setColorHistory(prev => [color, ...prev.slice(0, 4)])
   }, [])
 

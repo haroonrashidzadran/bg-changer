@@ -45,7 +45,7 @@ function App() {
   }
 
   return (
-    <div style={{ backgroundColor: bgColor, minHeight: '100vh', width: '100vw', transition: 'background-color 0.5s ease' }}>
+    <div style={{ backgroundColor: bgColor, minHeight: '100vh', width: '100vw', transition: 'background-color 0.8s cubic-bezier(0.4, 0, 0.2, 1)' }}>
       {isLoading ? (
         <div className="loading">
           <div className="spinner"></div>

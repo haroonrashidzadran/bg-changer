@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import './App.css'
 
 function App() {
@@ -34,10 +34,10 @@ function App() {
     return () => window.removeEventListener('keydown', handleKeyPress)
   }, [])
 
-  const changeColor = (color) => {
+  const changeColor = useCallback((color) => {
     setBgColor(color)
     setColorHistory(prev => [color, ...prev.slice(0, 4)])
-  }
+  }, [])
 
   const getRandomColor = () => {
     const randomIndex = Math.floor(Math.random() * colors.length)

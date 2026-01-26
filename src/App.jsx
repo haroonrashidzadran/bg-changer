@@ -43,6 +43,10 @@ function App() {
     setColorHistory(prev => [color, ...prev.slice(0, 4)])
   }, [])
 
+  const copyColorCode = (color) => {
+    navigator.clipboard.writeText(color)
+  }
+
   const getRandomColor = () => {
     const randomIndex = Math.floor(Math.random() * colors.length)
     changeColor(colors[randomIndex].value)
@@ -76,7 +80,7 @@ function App() {
               aria-label={`Change background to ${color.name}`}
             >
               <span className="color-name">{color.name}</span>
-              <span className="color-code">{color.value}</span>
+              <span className="color-code" onClick={(e) => { e.stopPropagation(); copyColorCode(color.value); }}>{color.value}</span>
             </button>
           ))}
         </div>

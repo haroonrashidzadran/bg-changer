@@ -19,7 +19,8 @@ function App() {
     { name: 'Teal', value: '#0d9488' },
     { name: 'Indigo', value: '#4338ca' },
     { name: 'Crimson', value: '#dc2626' },
-    { name: 'Charcoal', value: '#374151' }
+    { name: 'Charcoal', value: '#374151' },
+    { name: 'Gradient', value: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }
   ]
 
   useEffect(() => {
@@ -56,7 +57,7 @@ function App() {
   }
 
   return (
-    <div style={{ backgroundColor: previewColor || bgColor, minHeight: '100vh', width: '100vw', transition: 'background-color 0.8s cubic-bezier(0.4, 0, 0.2, 1)' }}>
+    <div style={{ background: previewColor || bgColor, minHeight: '100vh', width: '100vw', transition: 'background 0.8s cubic-bezier(0.4, 0, 0.2, 1)' }}>
       {isLoading ? (
         <div className="loading">
           <div className="spinner"></div>
@@ -78,7 +79,7 @@ function App() {
               onMouseEnter={() => setPreviewColor(color.value)}
               onMouseLeave={() => setPreviewColor(null)}
               className={`color-btn ${bgColor === color.value ? 'active' : ''}`}
-              style={{ backgroundColor: color.value }}
+              style={{ background: color.value }}
               title={`${color.name} - ${color.value}`}
               aria-label={`Change background to ${color.name}`}
             >

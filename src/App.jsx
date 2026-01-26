@@ -10,7 +10,7 @@ function App() {
   const [previewColor, setPreviewColor] = useState(null)
 
   const colors = [
-    { name: 'Slate', value: '#1e293b' },
+    { name: 'Slate', value: '#1e293c' },
     { name: 'Navy', value: '#1e40af' },
     { name: 'Emerald', value: '#059669' },
     { name: 'Violet', value: '#7c3aed' },

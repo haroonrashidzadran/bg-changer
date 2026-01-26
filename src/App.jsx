@@ -7,6 +7,7 @@ function App() {
   })
   const [colorHistory, setColorHistory] = useState([])
   const [isLoading, setIsLoading] = useState(true)
+  const [previewColor, setPreviewColor] = useState(null)
 
   const colors = [
     { name: 'Slate', value: '#1e293b' },
@@ -48,7 +49,7 @@ function App() {
   }
 
   return (
-    <div style={{ backgroundColor: bgColor, minHeight: '100vh', width: '100vw', transition: 'background-color 0.8s cubic-bezier(0.4, 0, 0.2, 1)' }}>
+    <div style={{ backgroundColor: previewColor || bgColor, minHeight: '100vh', width: '100vw', transition: 'background-color 0.8s cubic-bezier(0.4, 0, 0.2, 1)' }}>
       {isLoading ? (
         <div className="loading">
           <div className="spinner"></div>
@@ -67,6 +68,8 @@ function App() {
             <button
               key={color.name}
               onClick={() => changeColor(color.value)}
+              onMouseEnter={() => setPreviewColor(color.value)}
+              onMouseLeave={() => setPreviewColor(null)}
               className={`color-btn ${bgColor === color.value ? 'active' : ''}`}
               style={{ backgroundColor: color.value }}
               title={`${color.name} - ${color.value}`}

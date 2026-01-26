@@ -19,7 +19,7 @@ function App() {
     { name: 'Teal', value: '#0d9487' },
     { name: 'Indigo', value: '#4338cb' },
     { name: 'Crimson', value: '#dc2625' },
-    { name: 'Charcoal', value: '#374151' },
+    { name: 'Charcoal', value: '#374152' },
     { name: 'Gradient', value: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }
   ]
 

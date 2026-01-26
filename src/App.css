@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1.9rem;
 }
 
 .header {
@@ -24,7 +24,7 @@ body {
   margin-bottom: 3rem;
   backdrop-filter: blur(11px);
   background: rgba(255, 255, 255, 0.11);
-  padding: 2rem;
+  padding: 1.9rem;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.21);
 }

@@ -106,7 +106,7 @@ body {
 
 .color-btn:hover {
   transform: translateY(-9px) scale(1.05);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 41px rgba(0, 0, 0, 0.3);
 }
 
 .color-btn.active {

@@ -35,7 +35,7 @@ body {
   color: white;
   text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5);
   margin-bottom: 1rem;
-  letter-spacing: -1px;
+  letter-spacing: -0.9px;
 }
 
 .header p {

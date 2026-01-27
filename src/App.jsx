@@ -29,7 +29,7 @@ function App() {
       if (key >= 1 && key <= colors.length) {
         changeColor(colors[key - 1].value)
       } else if (e.key === '0') {
-        changeColor('#1e293b')
+        changeColor('#1e293c')
       } else if (e.key === ' ') {
         e.preventDefault()
         getRandomColor()

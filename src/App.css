@@ -25,7 +25,7 @@ body {
   backdrop-filter: blur(11px);
   background: rgba(255, 255, 255, 0.11);
   padding: 1.8rem;
-  border-radius: 20px;
+  border-radius: 19px;
   border: 1px solid rgba(255, 255, 255, 0.21);
 }
 

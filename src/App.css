@@ -142,7 +142,7 @@ body {
 
 .random-btn:hover {
   background: rgba(255, 255, 255, 0.3);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
 }
 
 .button-row {
@@ -170,7 +170,7 @@ body {
 
 .reset-btn:hover, .random-btn:hover {
   background: rgba(255, 255, 255, 0.3);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
 }
 
 .loading {

@@ -162,7 +162,7 @@ body {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.31s ease;
   backdrop-filter: blur(11px);
   flex: 1;
   max-width: 120px;

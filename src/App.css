@@ -41,7 +41,7 @@ body {
 .header p {
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.89);
-  font-weight: 600;
+  font-weight: 610;
 }
 
 .shortcut-hint {
@@ -122,7 +122,7 @@ body {
 .color-name {
   color: white;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 610;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
   margin-bottom: 0.5rem;
 }
@@ -160,7 +160,7 @@ body {
   border-radius: 13px;
   color: white;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 610;
   cursor: pointer;
   transition: all 0.31s ease;
   backdrop-filter: blur(11px);

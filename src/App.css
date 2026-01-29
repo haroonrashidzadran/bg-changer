@@ -65,7 +65,7 @@ body {
 .color-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 1.7rem;
+  gap: 1.8rem;
   max-width: 800px;
   width: 100%;
 }

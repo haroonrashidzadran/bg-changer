@@ -23,7 +23,7 @@ body {
   text-align: center;
   margin-bottom: 2.8rem;
   backdrop-filter: blur(12px);
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.13);
   padding: 1.7rem;
   border-radius: 19px;
   border: 1px solid rgba(255, 255, 255, 0.22);

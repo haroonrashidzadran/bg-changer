@@ -83,7 +83,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  animation: colorPulse 3.3s ease-in-out infinite;
+  animation: colorPulse 3.4s ease-in-out infinite;
 }
 
 .color-btn::after {

@@ -147,7 +147,7 @@ body {
 
 .button-row {
   display: flex;
-  gap: 1.3rem;
+  gap: 1.4rem;
   margin-top: 1.9rem;
   justify-content: center;
 }
@@ -202,7 +202,7 @@ body {
 @media (max-width: 768px) {
   .color-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.3rem;
+    gap: 1.4rem;
   }
   
   .header h1 {

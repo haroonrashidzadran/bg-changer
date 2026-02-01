@@ -37,7 +37,7 @@ function App() {
     }
     
     window.addEventListener('keydown', handleKeyPress)
-    setTimeout(() => setIsLoading(false), 1250)
+    setTimeout(() => setIsLoading(false), 1300)
     return () => window.removeEventListener('keydown', handleKeyPress)
   }, [])
 

@@ -44,7 +44,7 @@ function App() {
   const changeColor = useCallback((color) => {
     setBgColor(color)
     localStorage.setItem('bgColor', color)
-    setColorHistory(prev => [color, ...prev.slice(0, 8)])
+    setColorHistory(prev => [color, ...prev.slice(0, 9)])
   }, [])
 
   const copyColorCode = (color) => {

@@ -76,7 +76,7 @@ body {
   border: none;
   border-radius: 17px;
   cursor: pointer;
-  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.36s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 9px 31px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;

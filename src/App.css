@@ -100,7 +100,7 @@ body {
 }
 
 .color-btn:active::after {
-  width: 314px;
+  width: 315px;
   height: 300px;
 }
 

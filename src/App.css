@@ -22,7 +22,7 @@ body {
 .header {
   text-align: center;
   margin-bottom: 2.4rem;
-  backdrop-filter: blur(17px);
+  backdrop-filter: blur(18px);
   background: rgba(255, 255, 255, 0.18);
   padding: 1.2rem;
   border-radius: 14px;
@@ -163,7 +163,7 @@ body {
   font-weight: 610;
   cursor: pointer;
   transition: all 0.35s ease;
-  backdrop-filter: blur(17px);
+  backdrop-filter: blur(18px);
   flex: 1;
   max-width: 126px;
 }

@@ -116,7 +116,7 @@ body {
 
 .color-btn:focus {
   outline: 2px solid rgba(255, 255, 255, 0.8);
-  outline-offset: 7px;
+  outline-offset: 8px;
 }
 
 .color-name {

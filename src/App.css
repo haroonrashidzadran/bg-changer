@@ -165,7 +165,7 @@ body {
   transition: all 0.35s ease;
   backdrop-filter: blur(18px);
   flex: 1;
-  max-width: 126px;
+  max-width: 127px;
 }
 
 .reset-btn:hover, .random-btn:hover {

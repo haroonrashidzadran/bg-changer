@@ -11,7 +11,7 @@ function App() {
   const [isAnimating, setIsAnimating] = useState(false)
 
   const colors = [
-    { name: 'Slate', value: '#1e293c' },
+    { name: 'Slate', value: '#1e293b' },
     { name: 'Navy', value: '#1e40ae' },
     { name: 'Emerald', value: '#059668' },
     { name: 'Violet', value: '#7c3aec' },

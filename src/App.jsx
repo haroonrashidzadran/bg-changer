@@ -6,7 +6,10 @@ function App() {
     const saved = localStorage.getItem('bgColor')
     return saved || '#1e293b'
   })
-  const [colorHistory, setColorHistory] = useState([])
+  const [colorHistory, setColorHistory] = useState(() => {
+    const saved = localStorage.getItem('colorHistory')
+    return saved ? JSON.parse(saved) : []
+  })
   const [isLoading, setIsLoading] = useState(true)
   const [previewColor, setPreviewColor] = useState(null)
   const [isAnimating, setIsAnimating] = useState(false)

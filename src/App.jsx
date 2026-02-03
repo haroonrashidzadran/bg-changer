@@ -21,7 +21,7 @@ function App() {
     { name: 'Indigo', value: '#6366f1' },
     { name: 'Crimson', value: '#ef4444' },
     { name: 'Charcoal', value: '#4b5563' },
-    { name: 'Gradient', value: 'linear-gradient(127deg, #667eea 0%, #764ba2 100%)' }
+    { name: 'Gradient', value: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }
   ]
 
   useEffect(() => {

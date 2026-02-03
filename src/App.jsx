@@ -47,6 +47,8 @@ function App() {
     setBgColor(color)
     localStorage.setItem('bgColor', color)
     setColorHistory(prev => [color, ...prev.slice(0, 12)])
+    setIsAnimating(true)
+    setTimeout(() => setIsAnimating(false), 300)
   }, [])
 
   const copyColorCode = (color) => {

@@ -14,7 +14,7 @@ function App() {
     { name: 'Slate', value: '#1e293b' },
     { name: 'Navy', value: '#1e3a8a' },
     { name: 'Emerald', value: '#10b981' },
-    { name: 'Violet', value: '#7c3aec' },
+    { name: 'Violet', value: '#8b5cf6' },
     { name: 'Rose', value: '#e11d47' },
     { name: 'Amber', value: '#d97705' },
     { name: 'Teal', value: '#0d9487' },

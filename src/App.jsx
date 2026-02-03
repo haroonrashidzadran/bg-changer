@@ -18,7 +18,7 @@ function App() {
     { name: 'Rose', value: '#f43f5e' },
     { name: 'Amber', value: '#f59e0b' },
     { name: 'Teal', value: '#14b8a6' },
-    { name: 'Indigo', value: '#4338cb' },
+    { name: 'Indigo', value: '#6366f1' },
     { name: 'Crimson', value: '#dc2625' },
     { name: 'Charcoal', value: '#374152' },
     { name: 'Gradient', value: 'linear-gradient(127deg, #667eea 0%, #764ba2 100%)' }

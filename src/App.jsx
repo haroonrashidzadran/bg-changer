@@ -27,6 +27,7 @@ function App() {
 
   useEffect(() => {
     const handleKeyPress = (e) => {
+      if (e.repeat) return
       const key = parseInt(e.key)
       if (key >= 1 && key <= colors.length) {
         changeColor(colors[key - 1].value)

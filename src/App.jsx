@@ -8,6 +8,7 @@ function App() {
   const [colorHistory, setColorHistory] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const [previewColor, setPreviewColor] = useState(null)
+  const [isAnimating, setIsAnimating] = useState(false)
 
   const colors = [
     { name: 'Slate', value: '#1e293c' },

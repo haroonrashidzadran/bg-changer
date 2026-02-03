@@ -16,7 +16,7 @@ function App() {
     { name: 'Emerald', value: '#10b981' },
     { name: 'Violet', value: '#8b5cf6' },
     { name: 'Rose', value: '#f43f5e' },
-    { name: 'Amber', value: '#d97705' },
+    { name: 'Amber', value: '#f59e0b' },
     { name: 'Teal', value: '#0d9487' },
     { name: 'Indigo', value: '#4338cb' },
     { name: 'Crimson', value: '#dc2625' },

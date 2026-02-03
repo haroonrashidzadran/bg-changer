@@ -79,7 +79,7 @@ function App() {
           <p>Current: {colors.find(c => c.value === bgColor)?.name || 'Custom'} ({bgColor})</p>
           <p className="color-count">{colors.length} colors</p>
           <p className="shortcut-hint">Press 1-9 for colors, 0 to reset, Space for random color</p>
-          <p className="version">v1.1.0</p>
+          <p className="version">v1.2.0</p>
         </div>
         <div className="color-grid">
           {colors.map((color) => (

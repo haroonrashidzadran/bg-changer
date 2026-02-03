@@ -55,7 +55,8 @@ function App() {
 
   const getRandomColor = () => {
     const randomIndex = Math.floor(Math.random() * colors.length)
-    changeColor(colors[randomIndex].value)
+    const selectedColor = colors[randomIndex].value
+    changeColor(selectedColor)
   }
 
   return (

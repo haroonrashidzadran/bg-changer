@@ -3,7 +3,8 @@ import './App.css'
 
 function App() {
   const [bgColor, setBgColor] = useState(() => {
-    return localStorage.getItem('bgColor') || '#1e293b'
+    const saved = localStorage.getItem('bgColor')
+    return saved || '#1e293b'
   })
   const [colorHistory, setColorHistory] = useState([])
   const [isLoading, setIsLoading] = useState(true)

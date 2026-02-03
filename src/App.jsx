@@ -13,7 +13,7 @@ function App() {
   const colors = [
     { name: 'Slate', value: '#1e293b' },
     { name: 'Navy', value: '#1e3a8a' },
-    { name: 'Emerald', value: '#059668' },
+    { name: 'Emerald', value: '#10b981' },
     { name: 'Violet', value: '#7c3aec' },
     { name: 'Rose', value: '#e11d47' },
     { name: 'Amber', value: '#d97705' },

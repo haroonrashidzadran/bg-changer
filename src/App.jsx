@@ -77,7 +77,7 @@ function App() {
       <div className="container">
         <div className="header">
           <h1>Color Studio</h1>
-          <p>Current: {colors.find(c => c.value === bgColor)?.name || 'Custom'} ({bgColor})</p>
+          <p>Active: {colors.find(c => c.value === bgColor)?.name || 'Custom'} ({bgColor})</p>
           <p className="color-count">{colors.length} presets</p>
           <p className="shortcut-hint">Hotkeys: 1-9 select, 0 reset, Space random</p>
           <p className="version">v2.0.0</p>

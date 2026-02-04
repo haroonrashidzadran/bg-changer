@@ -51,7 +51,7 @@ function App() {
   const changeColor = useCallback((color) => {
     setBgColor(color)
     localStorage.setItem('bgColor', color)
-    setColorHistory(prev => [color, ...prev.slice(0, 12)])
+    setColorHistory(prev => [color, ...prev.slice(0, 15)])
     setIsAnimating(true)
     setTimeout(() => setIsAnimating(false), 300)
   }, [])

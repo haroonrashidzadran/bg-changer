@@ -21,7 +21,7 @@ function App() {
     { name: 'Lime', value: '#84cc16' },
     { name: 'Berry', value: '#d946ef' },
     { name: 'Rose', value: '#f43f5e' },
-    { name: 'Coral', value: '#f97316' },
+    { name: 'Gold', value: '#eab308' },
     { name: 'Mint', value: '#06b6d4' },
     { name: 'Indigo', value: '#6366f1' },
     { name: 'Crimson', value: '#ef4444' },

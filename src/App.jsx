@@ -22,7 +22,7 @@ function App() {
     { name: 'Berry', value: '#d946ef' },
     { name: 'Rose', value: '#f43f5e' },
     { name: 'Coral', value: '#f97316' },
-    { name: 'Ocean', value: '#0ea5e9' },
+    { name: 'Mint', value: '#06b6d4' },
     { name: 'Indigo', value: '#6366f1' },
     { name: 'Crimson', value: '#ef4444' },
     { name: 'Charcoal', value: '#4b5563' },

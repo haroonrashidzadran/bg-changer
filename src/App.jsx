@@ -112,7 +112,7 @@ function App() {
             className="random-btn"
             aria-label="Select random background color"
           >
-            Random Color
+            Surprise Me
           </button>
         </div>
       </div>

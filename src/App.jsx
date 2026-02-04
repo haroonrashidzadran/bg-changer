@@ -106,7 +106,7 @@ function App() {
           <button 
             onClick={() => changeColor('#1e293b')}
             className="reset-btn"
-            aria-label="Reset background to dark slate"
+            aria-label="Apply default slate background"
           >
             Default
           </button>

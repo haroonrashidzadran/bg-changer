@@ -20,7 +20,7 @@ function App() {
     { name: 'Midnight', value: '#1e1b4b' },
     { name: 'Lime', value: '#84cc16' },
     { name: 'Plum', value: '#a855f7' },
-    { name: 'Rose', value: '#f43f5e' },
+    { name: 'Blush', value: '#fb7185' },
     { name: 'Gold', value: '#eab308' },
     { name: 'Mint', value: '#06b6d4' },
     { name: 'Indigo', value: '#6366f1' },

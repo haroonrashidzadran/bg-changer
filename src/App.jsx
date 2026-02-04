@@ -94,7 +94,7 @@ function App() {
               onMouseLeave={() => setPreviewColor(null)}
               className={`color-btn ${bgColor === color.value ? 'active' : ''}`}
               style={{ background: color.value }}
-              title={`${color.name} - ${color.value}`}
+              title={`${color.name}: ${color.value}`}
               aria-label={`Apply ${color.name} background`}
             >
               <span className="color-name">{color.name}</span>

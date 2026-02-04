@@ -113,7 +113,7 @@ function App() {
           <button 
             onClick={getRandomColor}
             className="random-btn"
-            aria-label="Select random background color"
+            aria-label="Get a surprise random color"
           >
             Surprise Me
           </button>

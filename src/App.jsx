@@ -93,7 +93,7 @@ function App() {
           <p>Active: {colors.find(c => c.value === bgColor)?.name || 'Custom'} ({bgColor})</p>
           <p className="color-count">{colors.length} presets</p>
           <p className="shortcut-hint">Hotkeys: 1-9 select, 0 reset, Space random</p>
-          <p className="version">v2.1.0</p>
+          <p className="version">v3.0.0</p>
         </div>
         <div className="color-grid">
           {colors.map((color) => (

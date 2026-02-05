@@ -92,7 +92,7 @@ function App() {
       <div className="container">
         <div className="header">
           <h1>Palette Studio</h1>
-          <p>Active: {colors.find(c => c.value === bgColor)?.name || 'Custom'} ({bgColor})</p>
+          <p>Now: {colors.find(c => c.value === bgColor)?.name || 'Custom'} ({bgColor})</p>
           <p className="color-count">{colors.length} beautiful colors</p>
           <p className="shortcut-hint">Keys: 1-9 pick, 0 default, Space surprise</p>
           <p className="version">v3.0.0</p>

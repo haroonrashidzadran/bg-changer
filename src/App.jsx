@@ -125,7 +125,7 @@ function App() {
             className="random-btn"
             aria-label="Get a surprise random color"
           >
-            Surprise Me
+            Random
           </button>
         </div>
       </div>

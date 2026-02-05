@@ -28,6 +28,7 @@ function App() {
     { name: 'Blush', value: '#fb7185' },
     { name: 'Sky', value: '#38bdf8' },
     { name: 'Gold', value: '#eab308' },
+    { name: 'Lavender', value: '#c4b5fd' },
     { name: 'Mint', value: '#06b6d4' },
     { name: 'Indigo', value: '#6366f1' },
     { name: 'Cherry', value: '#be123c' },

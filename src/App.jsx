@@ -71,7 +71,9 @@ function App() {
 
   const copyColorCode = (color) => {
     navigator.clipboard.writeText(color)
-    console.log('Copied to clipboard:', color)
+    setCopyFeedback(true)
+    setTimeout(() => setCopyFeedback(false), 2000)
+    console.log('Copied:', color)
   }
 
   const getRandomColor = () => {

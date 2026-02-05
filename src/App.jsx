@@ -107,7 +107,7 @@ function App() {
               className={`color-btn ${bgColor === color.value ? 'active' : ''}`}
               style={{ background: color.value }}
               title={`${color.name}: ${color.value}`}
-              aria-label={`Apply ${color.name} background`}
+              aria-label={`Set ${color.name}`}
             >
               <span className="color-name">{color.name}</span>
               <span className="color-code" onClick={(e) => { e.stopPropagation(); copyColorCode(color.value); }}>{color.value}</span>

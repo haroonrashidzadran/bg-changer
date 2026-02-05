@@ -26,6 +26,7 @@ function App() {
     { name: 'Plum', value: '#a855f7' },
     { name: 'Peach', value: '#fdba74' },
     { name: 'Blush', value: '#fb7185' },
+    { name: 'Sky', value: '#38bdf8' },
     { name: 'Gold', value: '#eab308' },
     { name: 'Mint', value: '#06b6d4' },
     { name: 'Indigo', value: '#6366f1' },

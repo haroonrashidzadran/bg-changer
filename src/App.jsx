@@ -10,10 +10,7 @@ function App() {
     const saved = localStorage.getItem('colorHistory')
     return saved ? JSON.parse(saved) : []
   })
-  const [favorites, setFavorites] = useState(() => {
-    const saved = localStorage.getItem('favorites')
-    return saved ? JSON.parse(saved) : []
-  })
+  const [showHistory, setShowHistory] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
   const [previewColor, setPreviewColor] = useState(null)
   const [isAnimating, setIsAnimating] = useState(false)

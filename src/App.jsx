@@ -36,6 +36,7 @@ function App() {
     { name: 'Cherry', value: '#be123c' },
     { name: 'Magenta', value: '#e879f9' },
     { name: 'Steel', value: '#64748b' },
+    { name: 'Olive', value: '#65a30d' },
     { name: 'Rainbow', value: 'linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3)' }
   ]
 

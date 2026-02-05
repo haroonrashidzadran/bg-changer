@@ -118,7 +118,7 @@ function App() {
             className="reset-btn"
             aria-label="Apply default slate background"
           >
-            Default
+            Reset
           </button>
           <button 
             onClick={getRandomColor}

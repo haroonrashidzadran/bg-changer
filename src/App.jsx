@@ -11,7 +11,7 @@ function App() {
     return saved ? JSON.parse(saved) : []
   })
   const [showHistory, setShowHistory] = useState(false)
-  const [searchQuery, setSearchQuery] = useState('')
+  const [darkMode, setDarkMode] = useState(true)
   const [isLoading, setIsLoading] = useState(true)
   const [previewColor, setPreviewColor] = useState(null)
   const [isAnimating, setIsAnimating] = useState(false)

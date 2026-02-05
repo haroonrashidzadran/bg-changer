@@ -18,6 +18,7 @@ function App() {
 
   const colors = [
     { name: 'Slate', value: '#1e293b' },
+    { name: 'Snow', value: '#f8fafc' },
     { name: 'Midnight', value: '#1e1b4b' },
     { name: 'Lime', value: '#84cc16' },
     { name: 'Plum', value: '#a855f7' },

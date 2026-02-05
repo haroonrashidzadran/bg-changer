@@ -38,7 +38,8 @@ function App() {
     { name: 'Steel', value: '#64748b' },
     { name: 'Olive', value: '#65a30d' },
     { name: 'Rainbow', value: 'linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3)' },
-    { name: 'Sunrise', value: 'linear-gradient(to right, #ff512f, #dd2476)' }
+    { name: 'Sunrise', value: 'linear-gradient(to right, #ff512f, #dd2476)' },
+    { name: 'Oceanic', value: 'linear-gradient(to right, #2193b0, #6dd5ed)' }
   ]
 
   useEffect(() => {

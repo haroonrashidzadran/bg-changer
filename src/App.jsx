@@ -32,6 +32,7 @@ function App() {
     { name: 'Mint', value: '#06b6d4' },
     { name: 'Sand', value: '#d6d3d1' },
     { name: 'Indigo', value: '#6366f1' },
+    { name: 'Cocoa', value: '#78350f' },
     { name: 'Cherry', value: '#be123c' },
     { name: 'Steel', value: '#64748b' },
     { name: 'Rainbow', value: 'linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3)' }

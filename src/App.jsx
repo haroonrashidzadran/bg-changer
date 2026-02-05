@@ -22,6 +22,7 @@ function App() {
     { name: 'Midnight', value: '#1e1b4b' },
     { name: 'Forest', value: '#14532d' },
     { name: 'Lime', value: '#84cc16' },
+    { name: 'Sunset', value: '#f97316' },
     { name: 'Plum', value: '#a855f7' },
     { name: 'Blush', value: '#fb7185' },
     { name: 'Gold', value: '#eab308' },

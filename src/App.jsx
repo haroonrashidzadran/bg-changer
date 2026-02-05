@@ -30,6 +30,7 @@ function App() {
     { name: 'Gold', value: '#eab308' },
     { name: 'Lavender', value: '#c4b5fd' },
     { name: 'Mint', value: '#06b6d4' },
+    { name: 'Sand', value: '#d6d3d1' },
     { name: 'Indigo', value: '#6366f1' },
     { name: 'Cherry', value: '#be123c' },
     { name: 'Steel', value: '#64748b' },
